@@ -109,6 +109,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.samir
+samir/
 
 # Spyder project settings
 .spyderproject
