@@ -30,9 +30,4 @@ Dockerfile:
 5. Open port: port is a envirment variable
 6. command to launch application i.e. gunicorn with local host ip address(0.0.0.0), file_name:application object_name
 
-BUILD DOCKER IMAGE
-
-   > docker build -t <image_name>:<tagname> .
-
-
 
