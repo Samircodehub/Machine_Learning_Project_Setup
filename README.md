@@ -8,6 +8,7 @@
 4. GIT cli
 5. GIT Documentation
 6. Creating conda environment
+7. CICD Tool :Github Action (In github)
 
 * conda create -p InterpreterName python==3.9 -y
 * conda activate venv/
@@ -18,7 +19,7 @@
 
 #### To setup CI/CD pipeline in heroku we need 3 information
 
-1. HEROKU_EMAIL = samirpmendhe@gmail.com
+1. HEROKU_EMAIL = 
 2. HEROKU_API_KEY = <>
 3. HEROKU_APP_NAME = ml-regression-app
 
