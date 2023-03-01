@@ -53,9 +53,30 @@ Inside housing folder we are going to craete folders as packages that will help 
 4. component (stages)
 4. config
 5. entity
-* step1: create all above file inside housing folder and __init__py file in each folder so that ach folder act like package
+   
+   In entity we are going to define all the artefact for each and every component of pipeine 
 
- * Step2: build code in ecah folder
-       * logger file: to track all process of running code maeans what happening
-       * exception file:  to handle exceptoin handeling
-         - Traceback: It gives us file name as well as line number where error is occured during run  [exe.info()]
+###### Install ipynb kernel
+       >pip install ipykernel
+  ###### To run yaml file
+         >pip install PyYAML     
+
+        artifact_dir: Output of every component will be stored in this location
+
+
+        util file:  All the helper function we will write inside util file. Helper function like How to crete pickle object,or may be how to load model from pickle object.
+        Helper function are not part of pipeline but it is required in multile places, so we create util file.
+
+
+
+        Main folder is housing folder(root folder)
+        Inside hosing many folders like
+        logger
+        exception
+        constant
+        entity
+        config
+        component
+        util
+        pipeline
+
